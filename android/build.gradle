@@ -25,7 +25,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 31
 
     if (project.android.hasProperty('namespace')) {
         namespace 'com.sayegh.move_to_background'
